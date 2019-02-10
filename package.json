@@ -7,7 +7,7 @@
     "lc-spider": "./bin/leetcode_spider"
   },
   "scripts": {
-    "dev": "DEBUG=lc-spider lc-spider",
+    "dev": "DEBUG=lc-spider ./bin/leetcode_spider",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,10 +31,11 @@
     "cheerio": "^0.22.0",
     "co": "4.6.0",
     "co-parallel": "^1.0.0",
+    "cookie": "^0.3.1",
     "debug": "^2.3.3",
     "log4js": "^1.0.1",
     "mustache": "^2.3.0",
-    "request": "2.79.0",
+    "request": "2.88.0",
     "thenify": "^3.2.1",
     "thenify-all": "^1.6.0",
     "unescape": "^0.2.0",
